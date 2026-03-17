@@ -48,11 +48,9 @@ ARSITEKTUR SISTEM
 
 
 
-\\\[Sensor Energi] → \\\[MQTT Broker] → \\\[Ingestion Service] → \\\[InfluxDB] → \\\[Dashboard]
+\[Sensor Energi] → \[MQTT Broker] → \[Ingestion Service] → \[InfluxDB] → \[Dashboard]
 
-
-
-\&#x20;    (ESP32)      (CloudAMQP)         (Python)         (Cloud)      (Grafana)
+(ESP32) → (CloudAMQP) → (Python) → (Cloud) → (Grafana)
 
 
 
@@ -86,35 +84,19 @@ FORMAT DATA YANG DITERIMA
 
 {
 
+&#x20; "device\_id": "esp32\_001",
 
+&#x20; "voltage": 220.5,
 
-\&#x20; "device\\\_id": "esp32\\\_001",
+&#x20; "current": 1.2,
 
+&#x20; "power": 264.6,
 
+&#x20; "energy": 1250.75,
 
-\&#x20; "voltage": 220.5,
+&#x20; "power\_factor": 0.95,
 
-
-
-\&#x20; "current": 1.2,
-
-
-
-\&#x20; "power": 264.6,
-
-
-
-\&#x20; "energy": 1250.75,
-
-
-
-\&#x20; "power\\\_factor": 0.95,
-
-
-
-\&#x20; "frequency": 50.0
-
-
+&#x20; "frequency": 50.0
 
 }
 
@@ -128,15 +110,15 @@ Pipeline otomatis dengan GitHub Actions:
 
 
 
-1\. \*\*Trigger\*\*: Push ke branch main
+1\. Trigger: Push ke branch main
 
 
 
-2\. \*\*Test\*\*: Install dependencies dan cek koneksi
+2\. Test: Install dependencies dan cek koneksi
 
 
 
-3\. \*\*Deploy\*\*: Auto-deploy ke Render via webhook
+3\. Deploy: Auto-deploy ke Render via webhook
 
 
 
