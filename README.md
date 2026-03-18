@@ -286,6 +286,7 @@ KONTAK
 | 2 | 🔧 Pipeline CI/CD | [https://github.com/mrcs1735-lgtm/energy-monitoring-ingestion/actions](https://github.com/mrcs1735-lgtm/energy-monitoring-ingestion/actions) |
 | 3 | 🌍 Aplikasi Deploy | [https://www.pythonanywhere.com/user/Melfa333/](https://www.pythonanywhere.com/user/Melfa333/) |
 | 4 | 📸 Dashboard Monitoring 
-<img width="1365" height="767" alt="Screenshot 2026-03-18 122825" src="https://github.com/user-attachments/assets/69fa89b9-c587-4a1b-af09-5cc06c9e7fba" />
+<img width="1365" height="767" alt="Screenshot 2026-03-18 120610" src="https://github.com/user-attachments/assets/95315fac-38d3-4788-8448-c0c208f79cc9" />
+
 <img width="1365" height="767" alt="Screenshot 2026-03-18 122441" src="https://github.com/user-attachments/assets/4969d71c-1b26-447f-a2ae-b13e7aec902f" />
 
