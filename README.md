@@ -242,27 +242,27 @@ STRUKTUR PROYEK
 
 
 
-│       └── ci-cd.yml          # Pipeline CI/CD
+│       └── ci-cd.yml            Pipeline CI/CD
 
 
 
-├── .env.example                 # Template environment
+├── .env.example                 Template environment
 
 
 
-├── .gitignore                   # File yang diabaikan git
+├── .gitignore                   File yang diabaikan git
 
 
 
-├── ingestion.py                 # Source code utama
+├── ingestion.py                 Source code utama
 
 
 
-├── requirements.txt             # Dependencies Python
+├── requirements.txt             Dependencies Python
 
 
 
-└── README.md                    # Dokumentasi ini
+└── README.md                    Dokumentasi ini
 
 
 
